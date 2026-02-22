@@ -1,0 +1,26 @@
+
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+    color: black;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: darkblue;
+}
+
+.highlight {
+    color: red;
+}
+
+#main-title {
+    color: lightblue;
+}
+
+nav a {
+    color: greenyellow;
+}
