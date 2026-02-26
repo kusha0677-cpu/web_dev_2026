@@ -25,5 +25,11 @@ p {
 }
 
 nav a {
-    color: greenyellow;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
 }
