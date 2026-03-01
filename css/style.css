@@ -62,7 +62,6 @@ main {
     border: 3px solid darkgreen;
 }
 
-/* Box model demonstration: nested boxes */
 .box-demo {
     background-color: #e8f4f8;
     padding: 20px;
