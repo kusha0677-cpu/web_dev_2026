@@ -1,3 +1,7 @@
+/* Debug border - temporary, will remove before submission */
+* {
+  border: 1px solid black;
+}
 
 body {
     font-family: sans-serif;
@@ -14,6 +18,8 @@ h1 {
 
 p {
     color: darkblue;
+    margin: 1rem 0;
+    padding: 0.5rem;
 }
 
 .highlight {
@@ -46,4 +52,28 @@ section {
     padding: 1rem;
     background-color: white;
     border-radius: 10px;
+    border: 2px solid #999;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 3px solid darkgreen;
+}
+
+/* Box model demonstration: nested boxes */
+.box-demo {
+    background-color: #e8f4f8;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 1rem 0;
+}
+
+.child-box {
+    background-color: #fff3cd;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid red;
+    box-sizing: border-box;
 }
