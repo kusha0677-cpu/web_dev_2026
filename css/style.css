@@ -33,3 +33,17 @@ nav a:hover {
     color: darkblue;
     text-decoration: underline;
 }
+
+article {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
