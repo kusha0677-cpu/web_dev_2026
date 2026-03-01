@@ -67,7 +67,7 @@ main {
 
 .child-box {
     background-color: #fff3cd;
-    width: 100%;
+    width: 60%;
     padding: 20px;
     border: 2px solid red;
     box-sizing: border-box;
