@@ -53,6 +53,7 @@ nav a:hover {
 }
 
 article {
+    flex: 1 1 300px;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
@@ -60,6 +61,7 @@ article {
 }
 
 section {
+    flex: 1 1 350px;
     margin-bottom: 20px;
     padding: 1rem;
     background-color: white;
@@ -72,9 +74,16 @@ main {
     margin: 0 auto;
     padding: 2rem;
     border: 3px solid darkgreen;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .box-demo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #e8f4f8;
     padding: 20px;
     border: 2px solid blue;
@@ -82,6 +91,7 @@ main {
 }
 
 .child-box {
+    flex: 1 1 200px;
     background-color: #fff3cd;
     width: 60%;
     padding: 20px;
