@@ -1,11 +1,14 @@
+/* General Styles */
 html {
     font-size: 100%;
 }
+/* Reset some default styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: bisque;
     color: #222;
 }
+/* Typography */
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0.5rem 0;
@@ -33,7 +36,7 @@ p {
     padding: 0.5rem;
     line-height: 1.5;
 }
-
+/* Utility Classes */
 .highlight {
     color: #c00000;
 }
@@ -41,7 +44,7 @@ p {
 #main-title {
     color: #004a99;
 }
-
+/* Layout */
 nav a {
     color: darkgreen;
     font-weight: bold;
@@ -51,7 +54,7 @@ nav a:hover {
     color: darkblue;
     text-decoration: underline;
 }
-
+/* content Layout */
 article {
     flex: 1 1 300px;
     background-color: #f0f0f0;
@@ -79,7 +82,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
 }
-
+/* demo Box Model */
 .box-demo {
     display: flex;
     flex-wrap: wrap;
@@ -97,4 +100,16 @@ main {
     padding: 20px;
     border: 2px solid red;
     box-sizing: border-box;
+}
+
+/* child selector */
+main > section {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Responsive image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
