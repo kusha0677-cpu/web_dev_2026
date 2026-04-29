@@ -107,6 +107,25 @@ main > section {
     box-shadow: 0 0 5px gray;
 }
 
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 3px solid darkgreen;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer address {
+    font-style: normal;
+    margin-bottom: 0.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+
 /* Responsive image */
 img {
     max-width: 100%;
