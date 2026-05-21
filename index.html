@@ -1,115 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Alex Mandal">
-    <meta name="description" content="This is my website about the web.">
-    <meta name="keywords" content="web, website, HTML, CSS">
-     <link rel="stylesheet" href="css/style.css">
-    <title>My Website About the web</title>
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "About This Website",
-  "description": "A page explaining the purpose of the website, learning HTML, and interest in cybersecurity.",
-  "url": "https://kusha0677-cpu.github.io/web_dev_2026/index.html",
-  "author": {
-    "@type": "Person",
-    "name": "Alex Mandal"
-  },
-  "about": [
-    "HTML",
-    "Web Development",
-    "Cybersecurity"
-  ],
-  "hasPart": [
-    {
-      "@type": "WebPageElement",
-      "name": "Why HTML is Important"
-    },
-    {
-      "@type": "WebPageElement",
-      "name": "HTML Security"
-    },
-    {
-      "@type": "WebPageElement",
-      "name": "Cybersecurity Interest"
-    }
-  ]
-}
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Mandal | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1 id="main-title">My first website on github</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-             <h2>About This Website</h2>
-                <p class="highlight">This website is to practice html and css. The codes are written in a simple and clean way. 
-                   This webpage was created to help me learn web development through hands on practice.
-                   This is for a course in web development.</p>
-        </section>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Alex Mandal</h1>
 
-        <nav class="internal-nav">
-            <p><strong>Jump to:</strong></p>
-            <ul>
-                <li><a href="#html-importance">Why HTML is Important</a></li>
-                <li><a href="#html-security">HTML Security</a></li>
-                <li><a href="#cybersecurity-interest">Cybersecurity Interest</a></li>
-            </ul>
-        </nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section>
-            <h2 id="html-importance">why learning html is important</h2>
-            <p class="highlight">html is the standard markup language for creating web pages and web applications. My main intrest is in cybersecurity and 
-                and securing web application is a big part of cybersecurity so learning html is important for me to understand how we application works 
-                and how to secure them. For more information, visit the <a href="https://www.w3.org" target="_blank">W3C website</a> for HTML standards.</p>
+  <main>
 
-            <p> previous experience with HTML and CSS.</p>
-        </section>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tagline">ICT Student • Cybersecurity Learner • Homelab Builder</p>
 
-        <section>
-            <h2 id="html-security">learning HTML security</h2>
-            <p class="highlight">I am exicted to learn HTML security best practices and how to build secure web applications.
-                I am also interested in learning aobut common web vulnerabilities and how to protect against them.
-            </p>
-        </section>
+        <h2>Building real cybersecurity skills through hands-on labs.</h2>
 
-        <section>
-            <h2 id="cybersecurity-interest">What Interests me in cybersecurity</h2>
-            <p class="highlight">I first stated getting intrested in cyberseucity by watching movies and documentaries about hackers and security breaches.
-                Over the years the intrest has grown and I have strted learning more about cybersecurity through online courses and reading articles about cybersecurity.
-                I am really intrested in learning about how to proctet againt cross site scripting and SQL injection attacks.
-            </p>
-        </section>
+        <p>
+          Welcome to my portfolio. This website documents my progress in cybersecurity,
+          Linux, networking, virtualization, and web development. My goal is to build
+          practical experience that prepares me for internships and entry-level IT or
+          cybersecurity roles.
+        </p>
 
-        <aside class="box-demo">
-            <h2>Contact Information</h2>
-            <div class="child-box">
-                <ul>
-                    <li><strong>Email:</strong> kusha0677@gmail.com</li>
-                    <li><strong>Phone:</strong> (123) 456-7890</li>
-                    <li><strong>Address:</strong> 410 Administration Dr, Lexington, KY 40506</li>
-                </ul>
-            </div>
-        </aside>
-    </main>
+        <div class="hero-buttons">
+          <a href="projects.html" class="button">View Projects</a>
+          <a href="documentation.html" class="button secondary-button">Read Documentation</a>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        <address>410 administration Dr, Lesington, KY 40506</address>
-        <p>© 2024 Alex Mandal</p>
-    </footer>
+    <section class="overview-section">
+      <h2>What This Portfolio Shows</h2>
+
+      <div class="card-grid">
+
+        <article class="card">
+          <h3>Cybersecurity Homelab</h3>
+          <p>
+            A personal lab built with Proxmox, Ubuntu Server, and Kali Linux to practice
+            real technical skills in a safe environment.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Linux & Networking</h3>
+          <p>
+            Hands-on practice with terminal commands, services, SSH, IP addresses,
+            firewalls, ports, and packet captures.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Documentation</h3>
+          <p>
+            Clear notes explaining what I built, what I learned, what tools I used,
+            and how each project improved my skills.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="highlight-section">
+      <h2>Current Focus</h2>
+
+      <p>
+        Right now, I am focused on building a strong foundation in Linux, networking,
+        virtualization, Wireshark, and SOC analyst concepts before moving into more
+        advanced cybersecurity tools.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alex Mandal. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
