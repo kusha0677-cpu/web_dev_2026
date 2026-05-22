@@ -57,7 +57,7 @@ Future updates to this portfolio may include:
 ## Live Website
 
 
-https://yourusername.github.io/portfolio-site/
+https://kusha0677-cpu.github.io/web_dev_2026/
 
 ## Author
 
