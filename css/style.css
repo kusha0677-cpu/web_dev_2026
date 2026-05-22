@@ -298,13 +298,16 @@ footer {
     .page-header h2 {
         font-size: 2.1rem;
     }
-    .doc-image {
+  .doc-image {
     width: 100%;
-    max-height: 450px;
-    object-fit: cover;
+    max-width: 700px;
+    height: auto;
     border-radius: 12px;
     margin-top: 20px;
     border: 1px solid #1e293b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .doc-buttons {
