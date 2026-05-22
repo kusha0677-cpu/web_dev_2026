@@ -279,6 +279,25 @@ footer {
 
 /* RESPONSIVE */
 
+ .doc-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid #1e293b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doc-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
 @media (max-width: 768px) {
 
     .navbar {
@@ -298,22 +317,5 @@ footer {
     .page-header h2 {
         font-size: 2.1rem;
     }
-  .doc-image {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    border-radius: 12px;
-    margin-top: 20px;
-    border: 1px solid #1e293b;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.doc-buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
+ 
 }
